@@ -1,88 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camera IM4 Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: linear-gradient(to right, orange, gold);
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .feature-cards {
-            display: flex;
-            justify-content: space-around;
-            margin: 20px 0;
-        }
-        .card {
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: 24%;
-        }
-        .benefits {
-            margin: 20px;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-        }
-        .floating-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: orange;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 60px;
-            height: 60px;
-            font-size: 30px;
-            cursor: pointer;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Câmera Inteligente IM4 - Intelbras</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #2c2c2c; /* cinza escuro */
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      background: #ff7f00; /* laranja abóbora */
+      color: #fff;
+      padding: 20px;
+      border-bottom: 5px solid gold;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px auto;
+      max-width: 1000px;
+    }
+    .card {
+      background: #3a3a3a;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(255, 215, 0, 0.4);
+      margin: 15px;
+      width: 280px;
+      overflow: hidden;
+      transition: transform 0.3s;
+      border-top: 4px solid gold;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-bottom: 3px solid #ff7f00;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h3 {
+      margin-top: 0;
+      color: gold;
+    }
+    ul {
+      padding-left: 20px;
+      text-align: left;
+    }
+    section {
+      padding: 20px;
+      background: #3a3a3a;
+      margin: 20px auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(255, 215, 0, 0.4);
+      max-width: 800px;
+      border-top: 4px solid gold;
+    }
+    section h2 {
+      color: gold;
+    }
+    /* Botão flutuante grande */
+    .floating-btn-big {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #ff7f00; /* laranja abóbora */
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      padding: 15px 25px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(255, 215, 0, 0.4);
+      transition: transform 0.3s;
+    }
+    .floating-btn-big:hover {
+      transform: scale(1.05);
+      background: gold;
+      color: #2c2c2c;
+    }
+    .floating-btn-big a {
+      color: inherit;
+      text-decoration: none;
+      display: block;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to the Camera IM4</h1>
-    </header>
-    <div class="feature-cards">
-        <div class="card">
-            <h2>Feature 1</h2>
-            <p>Description of feature 1.</p>
-        </div>
-        <div class="card">
-            <h2>Feature 2</h2>
-            <p>Description of feature 2.</p>
-        </div>
-        <div class="card">
-            <h2>Feature 3</h2>
-            <p>Description of feature 3.</p>
-        </div>
-        <div class="card">
-            <h2>Feature 4</h2>
-            <p>Description of feature 4.</p>
-        </div>
-    </div>
-    <div class="benefits">
-        <h2>Benefits</h2>
+
+  <header>
+    <h1>Câmera Inteligente IM4 - Intelbras</h1>
+    <p>Segurança e conectividade para sua empresa ou residência</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <a href="https://ibb.co/7xznZRx1">
+        <img src="https://i.ibb.co/hxMB4Zxm/D-Q-NP-2-X-951998-MLA84547563234-052025-F.webp" alt="Câmera IM4 Intelbras">
+      </a>
+      <div class="card-content">
+        <h3>Instalação Residencial</h3>
         <ul>
-            <li>Benefit 1</li>
-            <li>Benefit 2</li>
-            <li>Benefit 3</li>
+          <li>Instalação simples e rápida via Wi-Fi</li>
+          <li>Configuração pelo aplicativo Intelbras</li>
+          <li>Compatível com roteadores modernos</li>
         </ul>
+      </div>
     </div>
-    <a href="https://www.mercadolivre.com.br/" target="_blank">
-        <button class="floating-button">🛒</button>
+
+    <div class="card">
+      <a href="https://ibb.co/gMsmPBXh">
+        <img src="https://i.ibb.co/wNDBwxbj/D-Q-NP-2-X-903852-MLA99446684024-112025-F.webp" alt="Avisos no celular">
+      </a>
+      <div class="card-content">
+        <h3>Avisos no Celular</h3>
+        <ul>
+          <li>Notificações instantâneas de movimento</li>
+          <li>Alertas de áudio e vídeo em tempo real</li>
+          <li>Controle remoto direto pelo smartphone</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="https://ibb.co/7xznZRx1">
+        <img src="https://i.ibb.co/hxMB4Zxm/D-Q-NP-2-X-951998-MLA84547563234-052025-F.webp" alt="Gravação SD">
+      </a>
+      <div class="card-content">
+        <h3>Gravação em Cartão SD</h3>
+        <ul>
+          <li>Suporte para cartão microSD</li>
+          <li>Armazenamento local seguro</li>
+          <li>Facilidade para acessar gravações</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="https://ibb.co/gMsmPBXh">
+        <img src="https://i.ibb.co/wNDBwxbj/D-Q-NP-2-X-903852-MLA99446684024-112025-F.webp" alt="Gravação na nuvem">
+      </a>
+      <div class="card-content">
+        <h3>Gravação na Nuvem</h3>
+        <ul>
+          <li>Acesso remoto às gravações</li>
+          <li>Backup automático online</li>
+          <li>Segurança extra contra perda de dados</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>Benefícios da Câmera IM4</h2>
+    <ul>
+      <li>Monitoramento em tempo real para maior segurança</li>
+      <li>Ideal para empresas que precisam de vigilância constante</li>
+      <li>Proteção residencial com visão ampla e detalhada</li>
+      <li>Facilidade de instalação e configuração</li>
+      <li>Redução de riscos e aumento da tranquilidade</li>
+      <li>Comunicação bidirecional com áudio</li>
+      <li>Monitoramento de pets e familiares</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Frete Full</h2>
+    <ul>
+      <li>Entrega rápida e segura</li>
+      <li>Produto disponível com logística Mercado Livre</li>
+      <li>Garantia de recebimento ágil</li>
+    </ul>
+  </section>
+
+  <!-- Botão flutuante grande -->
+  <button class="floating-btn-big">
+    <a href="https://www.mercadolivre.com.br/cmera-inteligente-full-hd-viso-360-im4-c-black-intelbras-cor-preto/p/MLB44293404" target="_blank">
+      Compre no Mercado Livre com Frete Full e Confiança Total
     </a>
+  </button>
+
 </body>
 </html>
